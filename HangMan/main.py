@@ -8,7 +8,7 @@ if __name__ == "__main__":
     invalid = "invalid input"
 
     def win(word, live):
-        print("You Win!!! The word is: {}, live: {}".format(word, live))
+        print("You Win!!! The word is: {}, and u beat it with  {} live(s)".format(word, live))
         return
         
     def lose(word):
@@ -83,7 +83,8 @@ if __name__ == "__main__":
                 print(' '.join(mysWord))
             
                 prompt = """(1) Word \n(2) Letter \ninput: """
-                inp = input(prompt)
+                #inp = input(prompt)
+                inp = "2"
                 if inp == "1":
                     guessOutp = guess_word(word, live, inpValid)
                     inpValid = guessOutp[0]
@@ -108,7 +109,7 @@ if __name__ == "__main__":
             mysWord.append("_")
         live = 7
         inpValid = True
-        
+
         guessing_word(word, inpValid, live, mysWord)
         
     def main():
@@ -117,6 +118,7 @@ if __name__ == "__main__":
         inpValid = True
         while inpValid: 
             inp = input(prompt)
+            inp = "1"
             if inp == "1":
                 word_generating()
                 inpValid = False

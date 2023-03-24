@@ -40,3 +40,11 @@ Win, Lose
                 - lose
             - else:
                 - Guessing Word
+
+tell user the word, letter that they 
+just guess is wrong 
+
+tell user that they already Guess
+the word or the letter
+
+restart game
