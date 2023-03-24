@@ -3,18 +3,18 @@
     - 1 start the game (2.game starting)
     - 2 end game 
 
-2.Game Starting
-    - Live = 7
-    - Generating Word 
+2.Word Generate 
+    Live = 7
+    Generating Word(word, live)
+
+3. Guessing Word
+    
+
     - Show mystery word, word length 
     - Sellect 1 or 2
         - 1. Word (3)
         - 2. Letter (4)
-
-        
-
     
-
 3. Guess Word
     - 1. Guess word
         - right: win 
@@ -23,7 +23,7 @@
             - if live = 0: 
                 - lose
             - else:
-                - back to sellect 1 or 2
+                - Guessing Word
 
 4. Guess Letter
     Guess Letter
@@ -37,4 +37,4 @@
             - if live = 0: 
                 - lose
             - else:
-                - back to sellect 1 or 2
+                - Guessing Word

@@ -1,3 +1,3 @@
 global words
 
-words = ["bald", "gay"]
+words = ["gay", "bede", "concak", "canada"]

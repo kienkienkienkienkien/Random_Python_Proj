@@ -1,7 +1,10 @@
-len = "bald"
+import re
+from re import search
+word = "postion"
+minusPos = -1
 
-mysW = ""
-for x in len:
-    mysW += "_ "
 
-print(mysW)
+inpu = input("input: ")
+for match in re.finditer(inpu, word):
+    minusPos = match.start()
+    print(minusPos)
