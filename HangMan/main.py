@@ -118,7 +118,7 @@ if __name__ == "__main__":
         prompt = """(1) Start \n(2) Exit \ninput: """
         inpValid = True
         while inpValid: 
-            #inp = input(prompt)
+            inp = input(prompt)
             inp = "1"
             if inp == "1":
                 word_generating()
