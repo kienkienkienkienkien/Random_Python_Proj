@@ -83,8 +83,7 @@ if __name__ == "__main__":
                 print(' '.join(mysWord))
             
                 prompt = """(1) Word \n(2) Letter \ninput: """
-                #inp = input(prompt)
-                inp = "2"
+                inp = input(prompt)
                 if inp == "1":
                     guessOutp = guess_word(word, live, inpValid)
                     inpValid = guessOutp[0]
@@ -109,8 +108,7 @@ if __name__ == "__main__":
             mysWord.append("_")
         live = 7
         inpValid = True
-
-        print("word: ", word)
+        
         guessing_word(word, inpValid, live, mysWord)
         
     def main():
@@ -119,7 +117,6 @@ if __name__ == "__main__":
         inpValid = True
         while inpValid: 
             inp = input(prompt)
-            inp = "1"
             if inp == "1":
                 word_generating()
                 inpValid = False
