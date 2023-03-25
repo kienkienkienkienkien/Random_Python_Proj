@@ -11,9 +11,9 @@ def play(playerInp):
     print("computer play: ", computerInp)
     
 
-    if playerInp == "R": playerInp = "Rock"
-    if playerInp == "P": playerInp = "Paper"
-    if playerInp == "S": playerInp = "Scissor"
+    if playerInp == "r": playerInp = "Rock"
+    if playerInp == "p": playerInp = "Paper"
+    if playerInp == "s": playerInp = "Scissor"
 
 
     if playerInp == computerInp: return draw
@@ -21,8 +21,8 @@ def play(playerInp):
     elif playerInp == "Rock" and computerInp == "Scissor": return win
     elif playerInp == "Paper" and computerInp == "Rock": return win
     elif playerInp == "Paper" and computerInp == "Scissor": return lose
-    elif playerInp == "Scissor" and computerInp == "Rock": return win
-    elif playerInp == "Scissor" and computerInp == "Paper": return lose
+    elif playerInp == "Scissor" and computerInp == "Rock": return lose
+    elif playerInp == "Scissor" and computerInp == "Paper": return win
     else: return invalid
         
     
