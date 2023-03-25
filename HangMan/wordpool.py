@@ -1,3 +1,3 @@
 global words
 
-words = ["gay", "bede", "concak", "canada"]
+words = ["america", "vietnam", "australia", "netherland", "gigachad", "china", "germany", "italy"]
