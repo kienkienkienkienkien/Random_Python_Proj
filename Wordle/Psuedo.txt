@@ -1,0 +1,11 @@
+
+
+1. Main
+    Select 1 or 2
+    - 1 start the game (2.game starting)
+    - 2 end game 
+
+2. Generate 4 Letter Word
+    
+3. Take input from user
+    - 
