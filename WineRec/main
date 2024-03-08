@@ -1,0 +1,17 @@
+import white
+
+if __name__ == "__main__":
+    def questions():
+        iniConvo_prompt = input("Hi, How can I help you (w / s / b/ sp/ r/ c)")
+        if iniConvo_prompt == "w":
+            white()
+        elif iniConvo_prompt == "wh":
+            white()
+
+
+        
+            
+
+    ans = questions()
+
+
