@@ -1,0 +1,23 @@
+## Chardonay 
+## Moscato
+## Savignon Blanc 
+## Pinot Grigio 
+
+def budget():
+    pass
+
+def char():
+    pass
+def mos():
+    pass
+def sav():
+    pass
+def pinot():
+    pass
+
+typePrompt = "do you like dry or sweet(d/s)"
+
+if typePrompt == "d":
+    pass
+else:
+    pass
